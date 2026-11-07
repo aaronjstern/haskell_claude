@@ -56,8 +56,8 @@ understands. Agree on it together. Keep it concise.
 
 Do not use the auto-memory directory; continuity lives only in `STATE.md`.
 
-The course directory is a git repository with a private GitHub remote. At the
-end of each session, commit and push.
+The course directory is a git repository. At the end of each session, commit
+(and push, once a private GitHub remote has been set up).
 
 At a large boundary (e.g. when the DSA curriculum begins), start a new
 `STATE.md` that summarises the previous one briefly and points to its archived
