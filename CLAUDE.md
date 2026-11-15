@@ -26,6 +26,10 @@ No plan is projected ahead. Each unit is a single concept or a tight set of
 concepts, decided only after the previous unit is complete, from what actually
 happened in it.
 
+Small language features (e.g. local definitions) are folded into a more
+substantive unit when it needs them, not given a unit of their own, unless
+that unit shows they need one.
+
 A unit runs:
 
 1. **Guided explanation.** Claude explains; Aaron types and runs the examples.
@@ -58,7 +62,7 @@ understands. Agree on it together. Keep it concise.
 Do not use the auto-memory directory; continuity lives only in `STATE.md`.
 
 The course directory is a git repository. At the end of each session, commit
-(and push, once a private GitHub remote has been set up).
+and push to the private GitHub remote.
 
 At the start of a new **phase** (a large boundary, e.g. when the DSA
 curriculum begins), start a new `STATE.md` that summarises the previous one
