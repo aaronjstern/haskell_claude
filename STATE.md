@@ -27,7 +27,19 @@ Solid: branch types and literals (the unit 1 weak spot now looks steady),
 guard order, choosing guards or patterns.
 Needs support: multi-argument patterns (fine in review), boundary values.
 
+**Unit 3: recursion on numbers** (`notes/unit03.md`).
+Base and recursive cases, substitution traces, non-termination and
+stack overflow, `error`, steps other than `- 1`, several base cases,
+tail recursion, `where` helpers, reusing functions, Haddock comments.
+`mod`, `div` vs `quot`, `even`/`odd`, `||`/`&&`.
+
+Solid: recursion shape, traces, `where` helpers, diagnosing a bug
+once a failing test exists.
+Needs support: edge inputs (the recurring weak spot, improved across
+the review); knowing expected answers before testing; guards firing
+on every recursive call.
+
 ## Current unit
 
-**Unit 3: recursion on numbers.** Not started. Base cases as patterns,
-boundaries (where recursion stops). Fold in `where`/`let` when needed.
+**Unit 4: lists and recursion on lists.** Not started. List syntax, `(x:xs)`
+patterns, the empty list as base case. Carry the edge checklist over.
