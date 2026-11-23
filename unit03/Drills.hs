@@ -122,7 +122,6 @@ sumRange a b
 countDigit :: Int -> Int -> Int
 countDigit d n
     | d < 0 || d >= 10 = 0
-    | d == 0 && n == 0 = 1
     | n < 0 = countDigit d (negate n)
     | n < 10 = if n == d then 1 else 0
     | n `mod` 10 == d = 1 + countDigit d (n `div` 10)
